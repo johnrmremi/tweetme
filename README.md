@@ -1,2 +1,2 @@
 # tweetme
-like twiiter app
+twiiter like app
