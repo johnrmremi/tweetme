@@ -1,7 +1,22 @@
-Tweets
-    -> Creating
+1. Tweets
+    -> User Permission
+        -> Creating
+            -> Text
+            -> Image -> Media storage server
+        -> Delete
+        -> Retweeting
+        -> Liking or Unliking
+
+2. Users
+    -> Register
+    -> Login
+    -> Logout
+    -> Profile
+        -> Image
         -> Text
-        -> Image -> Media storage server
-    -> Delete
-    -> Retweeting
-    -> Liking
+        -> Follow Button
+    -> Feeds
+        -> User's feed only
+        -> User + who they follow
+
+3. Following / Followers

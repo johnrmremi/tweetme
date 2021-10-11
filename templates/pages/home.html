@@ -82,6 +82,9 @@ This is noma
             } else if (xhr.status === 401) {
                 alert('You must login')
                 window.location.href="/login"
+            } else if (xhr.status === 403) {
+                alert('You must login')
+                window.location.href="/login"
             } else if (xhr.status === 500) {
                 alert('There was server error. Please try again.')
             }
@@ -110,7 +113,7 @@ This is noma
         xhr.open(method, url)
         xhr.onload = function() {
             const serverResponse = xhr.response 
-            const listedItems = serverResponse.response
+            const listedItems = serverResponse
             let finalTweetStr = ""
             let i
 
